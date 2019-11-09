@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix -it -v `pwd`:/ardupilot ardupilot:latest bash
+
